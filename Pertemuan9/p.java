@@ -16,7 +16,6 @@ public class p {
         System.out.println(a);
         test(a);
         System.out.println(a);
-        System.out.println("Hey");
     }
     
     public static void test(int j) {
