@@ -13,9 +13,7 @@ public class LatihanWaris {
     public static void main(String[] args) {
         Anak a = new Anak();
         
-        int thnLahir = 1980;
-        
-        System.out.println("Usia: " + a.usia(thnLahir) + " tahun.");
+        System.out.println("Usia: " + a.usia(1980) + " tahun.");
     }
 }
 
