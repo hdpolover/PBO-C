@@ -15,6 +15,7 @@ public class Kucing {
     private String warna;
     private int umur;
     private int berat;
+    private String jenis;
 
     public String getNama() {
         return nama;
@@ -52,10 +53,23 @@ public class Kucing {
         this.berat = berat;
     }
 
+    public String getJenis() {
+        return jenis;
+    }
+
+    public void setJenis(String jenis) {
+        if (jenis.equalsIgnoreCase("persia") || jenis.equalsIgnoreCase("anggora")) {
+            this.jenis = jenis;
+        } else {
+            System.out.println("Maaf! Kucing kampung.");
+            this.jenis = "Jenis kucing tidak dikenal.";
+        }
+    }
+
     void meong() {
         System.out.println("Metode meong");
     }
-    
+
     void gigit() {
         System.out.println("Metode gigit");
     }
