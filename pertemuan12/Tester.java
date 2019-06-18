@@ -16,19 +16,20 @@ public class Tester {
         Kucing garong = new Kucing();
 
         garong.setNama("Si Garong");
-        garong.setWarna("Hitam");
-        garong.setUmur(7);
+        garong.setWarna("Putih");
+        garong.setUmur(3);
         garong.setBerat(3);
-        garong.setJenis("Anggorad");
+        garong.setJenis("Persia");
 
-        System.out.println("Nama: " + garong.getNama());
-        if (garong.getUmur() > 0 && garong.getUmur() < 10) {
-            System.out.println("Umur: " + garong.getUmur());
-        }
-        System.out.println("Jenis: " + garong.getJenis());
-
-        garong.meong();
-        garong.gigit();
+//        System.out.println("Nama: " + garong.getNama());
+//        if (garong.getUmur() > 0 && garong.getUmur() < 10) {
+//            System.out.println("Umur: " + garong.getUmur());
+//        }
+//        System.out.println("Jenis: " + garong.getJenis());
+//
+//        garong.meong();
+//        garong.gigit();
+        garong.reputasi();
     }
 
 }
